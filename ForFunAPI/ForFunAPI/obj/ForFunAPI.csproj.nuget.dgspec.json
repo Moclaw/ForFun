@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GithubClone\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj": {}
+    "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj": {}
   },
   "projects": {
-    "D:\\GithubClone\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj": {
+    "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GithubClone\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
+        "projectUniqueName": "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
         "projectName": "ForFunAPI",
-        "projectPath": "D:\\GithubClone\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
-        "packagesPath": "C:\\Users\\Moclaw\\.nuget\\packages\\",
-        "outputPath": "D:\\GithubClone\\ForFun\\ForFunAPI\\ForFunAPI\\obj\\",
+        "projectPath": "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
+        "packagesPath": "C:\\Users\\Cong.Nguyen.dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Moclaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cong.Nguyen.dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

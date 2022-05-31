@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForFunAPI", "ForFunAPI\ForFunAPI.csproj", "{3F5F938B-12DD-4686-A10F-A4AD4474CDE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForFunAPI", "ForFunAPI\ForFunAPI.csproj", "{B8D5D4AC-0105-41A8-A03C-2A2DCA0ECD80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F5F938B-12DD-4686-A10F-A4AD4474CDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F5F938B-12DD-4686-A10F-A4AD4474CDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F5F938B-12DD-4686-A10F-A4AD4474CDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F5F938B-12DD-4686-A10F-A4AD4474CDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D5D4AC-0105-41A8-A03C-2A2DCA0ECD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D5D4AC-0105-41A8-A03C-2A2DCA0ECD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D5D4AC-0105-41A8-A03C-2A2DCA0ECD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D5D4AC-0105-41A8-A03C-2A2DCA0ECD80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C71D5706-2BE4-4E03-A2A2-004CAFEBC413}
+		SolutionGuid = {C3A41B83-F47B-4B4E-9416-B3A7900A7773}
 	EndGlobalSection
 EndGlobal
