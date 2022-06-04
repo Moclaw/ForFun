@@ -23,12 +23,15 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './modal/login/login.component';
+import { LoginService } from 'src/services/service/login.service';
+import { BirthdayComponent } from './birthday/birthday.component';
 @NgModule({
 	declarations: [
 		AppComponent,
 		NavbarComponent,
-  HomeComponent,
-  LoginComponent
+		HomeComponent,
+		LoginComponent,
+  BirthdayComponent
 	],
 	imports: [
 		BrowserModule,
@@ -50,7 +53,7 @@ import { LoginComponent } from './modal/login/login.component';
 		MdbTooltipModule,
 		MdbValidationModule,
 	],
-	providers: [],
+	providers: [LoginService],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }
