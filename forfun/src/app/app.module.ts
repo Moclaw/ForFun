@@ -4,10 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { HomePageComponent } from './home-page/home-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
-import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 import { MdbDropdownModule } from 'mdb-angular-ui-kit/dropdown';
 import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
@@ -20,23 +21,27 @@ import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
 import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './modal/login/login.component';
-import { LoginService } from 'src/services/service/login.service';
-import { BirthdayComponent } from './birthday/birthday.component';
+import { HomieoflamComponent } from './homieoflam/homieoflam.component';
+import { LoginserviceService } from 'src/services/loginservice.service';
+import { LoveroflamComponent } from './loveroflam/loveroflam.component';
+import { HappybirthdayComponent } from './happybirthday/happybirthday.component';
+import { SorryloverComponent } from './sorrylover/sorrylover.component';
+
 @NgModule({
 	declarations: [
 		AppComponent,
+		HomePageComponent,
 		NavbarComponent,
-		HomeComponent,
-		LoginComponent,
-  BirthdayComponent
+		HomieoflamComponent,
+  LoveroflamComponent,
+  HappybirthdayComponent,
+  SorryloverComponent,
 	],
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
 		BrowserAnimationsModule,
+		[MdbCheckboxModule],
 		MdbAccordionModule,
 		MdbCarouselModule,
 		MdbCheckboxModule,
@@ -53,7 +58,7 @@ import { BirthdayComponent } from './birthday/birthday.component';
 		MdbTooltipModule,
 		MdbValidationModule,
 	],
-	providers: [LoginService],
+	providers: [LoginserviceService],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }

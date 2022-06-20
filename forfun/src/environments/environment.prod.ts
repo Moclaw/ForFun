@@ -1,4 +1,7 @@
 export const environment = {
 	production: true,
-	passbirthday: '68617070796269727468646179',
+	passhomielam: "aG9taWVvZmxhbQ==",
+	passlover: "aXViYW5sYW0=",
+	passbirthday: "aGFwcHliaXJ0aGRheQ==",
+	sorrylover: "aXVsdW5nbWE="
 };

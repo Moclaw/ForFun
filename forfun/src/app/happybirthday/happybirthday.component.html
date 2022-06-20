@@ -1,0 +1,18 @@
+<div class="content" *ngIf="!hideButton">
+	<button class="btn btn-primary" (click)="click()">Click here</button>
+</div>
+<div class="birthday" *ngIf="hideButton">
+	<div class="image">
+		<img *ngIf="hideImage" id="candle" class="candle" src="../../assets/image/birthday/candle.svg" alt="nến">
+		<img *ngIf="hideImage" id="cake" class="cake" src="../../assets/image/birthday/cake.svg" alt="Bánh kem">
+		<button *ngIf="!button" id="random" class="btn btn-secondary" (click)="open()"
+			(mouseover)="randomButtonPosition()" #button>Quà
+			nè!!</button>
+	</div>
+	<video *ngIf="hideBoom" class="video-fluid z-depth-1 boom" autoplay loop controls muted>
+		<source src="../../assets/video/Happybirthday.mp4" type="video/mp4" />
+	</video>
+	<div class="roteling" *ngIf="hideBoom">
+		<h3>Gửi cho bạn ngàn lời chúc</h3>
+	</div>
+</div>

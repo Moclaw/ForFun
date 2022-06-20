@@ -1,14 +1,16 @@
 <div class="modal-header">
-	<h5 class="modal-title" id="exampleModalLabel">Login</h5>
+	<h3 class="modal-title" id="exampleModalLabel">Login</h3>
 	<button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
 </div>
 <div class="modal-body">
-	<p>Nhập pass tui nói rồi đó 😉😉😉</p>
-	<input class="form-control" type="text" mdbInput #pass id="password" placeholder="Nhập pass nè">
+	<div class="input">Nhập mật khẩu của chúng ta vào</div>
+	<div>
+		<input type="text" class="form-control" placeholder="Password" #password />
+	</div>
 </div>
 <div class="modal-footer">
-	<button type="button" class="btn btn-secondary" (click)="login(pass.value)">Login</button>
-	<button type="button" class="btn btn-warning" (click)="modalRef.close()">
+	<button type="button" class="btn btn-primary" (click)="login(password.value)">Login</button>
+	<button type="button" class="btn btn-secondary" (click)="modalRef.close()">
 		Close
 	</button>
 </div>
