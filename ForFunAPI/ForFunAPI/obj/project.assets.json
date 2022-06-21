@@ -193,19 +193,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cong.Nguyen.dev\\.nuget\\packages\\": {}
+    "C:\\Users\\Moclaw\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
+      "projectUniqueName": "D:\\GithubClone\\FF\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
       "projectName": "ForFunAPI",
-      "projectPath": "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
-      "packagesPath": "C:\\Users\\Cong.Nguyen.dev\\.nuget\\packages\\",
-      "outputPath": "D:\\Moclaw\\ForFun\\ForFunAPI\\ForFunAPI\\obj\\",
+      "projectPath": "D:\\GithubClone\\FF\\ForFun\\ForFunAPI\\ForFunAPI\\ForFunAPI.csproj",
+      "packagesPath": "C:\\Users\\Moclaw\\.nuget\\packages\\",
+      "outputPath": "D:\\GithubClone\\FF\\ForFun\\ForFunAPI\\ForFunAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cong.Nguyen.dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Moclaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -254,7 +254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
