@@ -1,0 +1,14 @@
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/bin/Debug/net6.0/project-x-b.deps.json
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/bin/Debug/net6.0/project-x-b.runtimeconfig.json
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/bin/Debug/net6.0/project-x-b.dll
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/bin/Debug/net6.0/project-x-b.pdb
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.csproj.AssemblyReference.cache
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.AssemblyInfoInputs.cache
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.AssemblyInfo.cs
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.csproj.CoreCompileInputs.cache
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.dll
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/refint/project-x-b.dll
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.pdb
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/project-x-b.genruntimeconfig.cache
+/Users/lammoc/Project/ForFun/project-x-api/project-x-b/obj/Debug/net6.0/ref/project-x-b.dll
