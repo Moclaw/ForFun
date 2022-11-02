@@ -26,6 +26,7 @@ import { LoginserviceService } from 'src/services/loginservice.service';
 import { LoveroflamComponent } from './loveroflam/loveroflam.component';
 import { HappybirthdayComponent } from './happybirthday/happybirthday.component';
 import { SorryloverComponent } from './sorrylover/sorrylover.component';
+import { FormcontactComponent } from './modal/Form/formcontact/formcontact.component';
 
 @NgModule({
 	declarations: [
@@ -33,9 +34,10 @@ import { SorryloverComponent } from './sorrylover/sorrylover.component';
 		HomePageComponent,
 		NavbarComponent,
 		HomieoflamComponent,
-  LoveroflamComponent,
-  HappybirthdayComponent,
-  SorryloverComponent,
+		LoveroflamComponent,
+		HappybirthdayComponent,
+		SorryloverComponent,
+  FormcontactComponent,
 	],
 	imports: [
 		BrowserModule,

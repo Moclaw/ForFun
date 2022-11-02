@@ -9,10 +9,13 @@
 			(mouseover)="randomButtonPosition()" #button>Quà
 			nè!!</button>
 	</div>
+	<div class="roteling" style="margin:auto ;" *ngIf="hideBoom">
+		<h3>Gửi cho bạn ngàn lời chúc</h3>
+		<h3>Happy Birthday</h3>
+		<button class="btn btn-primary" (click)="timeshowform()">Click here</button>
+	</div>
 	<video *ngIf="hideBoom" class="video-fluid z-depth-1 boom" autoplay loop controls muted>
 		<source src="../../assets/video/Happybirthday.mp4" type="video/mp4" />
 	</video>
-	<div class="roteling" *ngIf="hideBoom">
-		<h3>Gửi cho bạn ngàn lời chúc</h3>
-	</div>
+
 </div>

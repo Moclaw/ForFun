@@ -1,0 +1,18 @@
+<div class="modal-header">
+	<h3 class="modal-title" id="exampleModalLabel">Phát quà nè</h3>
+	<button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+	<div class="ticket">
+		<h1 class="name">Chúc mừng sinh nhật bạn</h1>
+		<div class="content">
+			<input type="text" class="form-control" placeholder="Nhập tên bạn" #name>
+			<input type="text" class="form-control" placeholder="Nhập số điện thoại" #phone>
+		</div>
+	</div>
+</div>
+<div class="modal-footer">
+	<button type="button" class="btn btn-success" (click)="okay(name.value, phone.value)">
+		Done
+	</button>
+</div>

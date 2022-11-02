@@ -11,7 +11,7 @@ const routes: Routes = [
 	{ path: "homieoflam", component: HomieoflamComponent },
 	{ path: "loveroflam", component: LoveroflamComponent },
 	{ path: "birthday", component: HappybirthdayComponent },
-	{path:"sorrylover", component: SorryloverComponent}
+	{ path: "sorrylover", component: SorryloverComponent }
 ]
 
 @NgModule({
