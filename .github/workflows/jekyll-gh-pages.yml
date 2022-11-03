@@ -56,5 +56,5 @@ jobs:
         run: npm install
       - name: Run app
         run: npm run
-      - name: Run app
-        run: ng s
+      - name: Build
+        run: npm run build -- --prod
